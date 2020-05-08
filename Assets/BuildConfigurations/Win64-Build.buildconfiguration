@@ -1,0 +1,23 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-2e9dfb784f1454746aa3644a9517102b-93214019566545601-0"
+    ],
+    "Components": [
+        {
+            "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
+            "$version": 1,
+            "Platform": "Windows",
+            "Configuration": 3
+        },
+        {
+            "$type": "Unity.Build.Common.OutputBuildDirectory, Unity.Build.Common",
+            "OutputDirectory": "C:\\Users\\unoct\\Documents\\Unity\\LWRPTest\\Builds\\Standalone"
+        },
+        {
+            "$type": "Unity.Build.Classic.ClassicScriptingSettings, Unity.Build.Classic",
+            "ScriptingBackend": 0,
+            "Il2CppCompilerConfiguration": 1,
+            "UseIncrementalGC": false
+        }
+    ]
+}

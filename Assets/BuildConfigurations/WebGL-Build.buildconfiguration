@@ -1,0 +1,21 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-2e9dfb784f1454746aa3644a9517102b-93214019566545601-0"
+    ],
+    "Components": [
+        {
+            "$type": "Unity.Build.Common.OutputBuildDirectory, Unity.Build.Common",
+            "OutputDirectory": "C:\\Users\\unoct\\Documents\\Unity\\LWRPTest\\Builds\\WebGL"
+        },
+        {
+            "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
+            "$version": 1,
+            "Platform": "WebGL",
+            "Configuration": 2
+        },
+        {
+            "$type": "Unity.Platforms.Web.Build.EmscriptenSettings, Unity.Platforms.Web.Build",
+            "EmccCmdLine": ""
+        }
+    ]
+}
