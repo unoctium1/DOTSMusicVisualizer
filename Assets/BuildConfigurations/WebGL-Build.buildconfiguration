@@ -5,17 +5,22 @@
     "Components": [
         {
             "$type": "Unity.Build.Common.OutputBuildDirectory, Unity.Build.Common",
-            "OutputDirectory": "C:\\Users\\unoct\\Documents\\Unity\\LWRPTest\\Builds\\WebGL"
+            "OutputDirectory": "C:\\Users\\unoct\\Documents\\Unity\\DOTSMusicVisualizer\\Builds\\WebGL"
         },
         {
             "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
             "$version": 1,
             "Platform": "WebGL",
-            "Configuration": 2
+            "Configuration": 3
         },
         {
             "$type": "Unity.Platforms.Web.Build.EmscriptenSettings, Unity.Platforms.Web.Build",
             "EmccCmdLine": ""
+        },
+        {
+            "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+            "ProductName": "DOTSMusicVisualizer",
+            "CompanyName": "AbelW"
         }
     ]
 }

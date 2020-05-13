@@ -8,4 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DOTSTest.unity
     guid: d104014161d25ff45ab2fe8e0fd0ffa2
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9e6a9a0eeb4c13c428a5497ca5fa9ef2,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eb0e9e241d44e064a99bff9d0eaedaea,
+      type: 2}

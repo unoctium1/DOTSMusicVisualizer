@@ -11,13 +11,18 @@
         },
         {
             "$type": "Unity.Build.Common.OutputBuildDirectory, Unity.Build.Common",
-            "OutputDirectory": "C:\\Users\\unoct\\Documents\\Unity\\LWRPTest\\Builds\\Standalone"
+            "OutputDirectory": "C:\\Users\\unoct\\Documents\\Unity\\DOTSMusicVisualizer\\Builds\\Standalone"
         },
         {
             "$type": "Unity.Build.Classic.ClassicScriptingSettings, Unity.Build.Classic",
             "ScriptingBackend": 0,
             "Il2CppCompilerConfiguration": 1,
             "UseIncrementalGC": false
+        },
+        {
+            "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+            "ProductName": "DOTSMusicVisualizer",
+            "CompanyName": "AbelW"
         }
     ]
 }
