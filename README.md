@@ -1,11 +1,5 @@
-# Starter Project
+# DOTS Music Visualizer
 
-To use this:
+Simple dots & urp project
 
-```
-git clone https://github.com/unoctium1/StarterProject.git
-cd StarterProject
-git remote remove origin
-git remote add origin <URL of new repo here>
-git push -u origin master
-```
+Using Unity 2020.1.0b8
