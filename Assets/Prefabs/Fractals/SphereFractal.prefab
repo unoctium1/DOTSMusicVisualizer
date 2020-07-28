@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4413304128576585696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3045788670006977150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28da1cd80cd109f438662d63cd9360ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useAmplitude: 0
+  level: 2
 --- !u!1001 &801552663477517724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 2403654803276472290, guid: a8c3a30785ea08541874a1d168c8df70,
         type: 3}
       propertyPath: m_Name
-      value: SphereFractal 1
+      value: SphereFractal
       objectReference: {fileID: 0}
     - target: {fileID: 4533955602826541639, guid: a8c3a30785ea08541874a1d168c8df70,
         type: 3}
@@ -185,3 +199,9 @@ PrefabInstance:
       objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8c3a30785ea08541874a1d168c8df70, type: 3}
+--- !u!1 &3045788670006977150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2403654803276472290, guid: a8c3a30785ea08541874a1d168c8df70,
+    type: 3}
+  m_PrefabInstance: {fileID: 801552663477517724}
+  m_PrefabAsset: {fileID: 0}

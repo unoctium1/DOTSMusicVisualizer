@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6276559618862525632}
   - component: {fileID: 6276559618862525642}
   - component: {fileID: 6276559618862525639}
+  - component: {fileID: -6858036855187148813}
   m_Layer: 0
   m_Name: BackgroundSphere
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConversionMode: 0
+--- !u!114 &-6858036855187148813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6276559618862525649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c898053d82fbeec4c9c263c9332c702a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 1

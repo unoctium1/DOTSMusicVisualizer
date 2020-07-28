@@ -1,0 +1,4 @@
+[submodule "Assets/unity-audio-spectrum"]
+	path = Assets/unity-audio-spectrum
+	url = https://github.com/unoctium1/unity-audio-spectrum.git
+	branch = dotsSupport

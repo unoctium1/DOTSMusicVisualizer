@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4169846794072670198}
   - component: {fileID: 4169846794072670199}
   - component: {fileID: 2107814301856328037}
+  - component: {fileID: 5684067888907911462}
   m_Layer: 0
   m_Name: BackgroundCube
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConversionMode: 0
+--- !u!114 &5684067888907911462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4169846794072670196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c898053d82fbeec4c9c263c9332c702a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Value: 1

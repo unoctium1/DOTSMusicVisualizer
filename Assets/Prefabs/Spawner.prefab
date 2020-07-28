@@ -50,6 +50,7 @@ MonoBehaviour:
   - {fileID: 401060799925714468, guid: b3b81031ec15b084ca7f97ea07a81997, type: 3}
   - {fileID: 3045788670006977150, guid: 2c6bc07d72fb5a14aaa37d11787a29b4, type: 3}
   - {fileID: 8291970267970870944, guid: 4185ee5ff7440f8418b360c82a1825cd, type: 3}
+  - {fileID: 8350822817115522986, guid: a2ecd63b221bc084a94c3889d18cc60c, type: 3}
   spawnRange: {x: 20, y: 8, z: 10}
   SpawnFixedAmount: 0
   TimeTillSpawn: 1
