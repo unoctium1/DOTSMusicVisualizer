@@ -61,7 +61,7 @@ public class FractalSpawnerSystem : SystemBase
 
     protected override void OnUpdate()
     {
-        var ecb = entityCommandBufferSystem.CreateCommandBuffer().ToConcurrent();
+        var ecb = entityCommandBufferSystem.CreateCommandBuffer().AsParallelWriter();
 
         var dir = childDirections;
         var rotations = childRotations;

@@ -151,7 +151,7 @@ MonoBehaviour:
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
     type: 2}
   m_RenderPipelineRayTracingResources: {fileID: 0}
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: f940a8037e6cda542891dc1aac1fa4e8,
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 06965918e571a7643953166996165dcd,
     type: 2}
   m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02,
     type: 2}
@@ -202,13 +202,13 @@ MonoBehaviour:
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
+    supportSSGI: 0
     supportSubsurfaceScattering: 1
     sssSampleBudget:
       m_Values: 140000002800000050000000
       m_SchemaId:
         m_Id: With3Levels
     supportVolumetrics: 1
-    increaseResolutionOfVolumetrics: 0
     supportLightLayers: 0
     lightLayerName0: Light Layer default
     lightLayerName1: Light Layer 1
@@ -234,6 +234,7 @@ MonoBehaviour:
     supportTerrainHole: 0
     supportProbeVolume: 0
     supportRayTracing: 0
+    supportedRayTracingMode: 3
     probeVolumeSettings:
       atlasWidth: 128
       atlasHeight: 128
@@ -275,6 +276,8 @@ MonoBehaviour:
         shadowAtlasResolution: 4096
         shadowAtlasDepthBits: 32
         useDynamicViewportRescale: 1
+      cachedPunctualLightShadowAtlas: 2048
+      cachedAreaLightShadowAtlas: 1024
       shadowResolutionDirectional:
         m_Values: 00010000000200000004000000080000
         m_SchemaId:
@@ -371,3 +374,8 @@ MonoBehaviour:
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
   afterPostProcessCustomPostProcesses: []
+  virtualTexturingSettings:
+    streamingCpuCacheSizeInMegaBytes: 256
+    streamingGpuCacheSettings:
+    - format: 0
+      sizeInMegaBytes: 128

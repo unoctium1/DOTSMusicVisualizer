@@ -20,7 +20,7 @@ public class LifetimeSystem : SystemBase
     protected override void OnUpdate()
     {
         float dt = Time.DeltaTime;
-        var ecb = m_Barrier.CreateCommandBuffer().ToConcurrent();
+        var ecb = m_Barrier.CreateCommandBuffer().AsParallelWriter();
 
         Entities
             .WithName("LifetimeSystem")

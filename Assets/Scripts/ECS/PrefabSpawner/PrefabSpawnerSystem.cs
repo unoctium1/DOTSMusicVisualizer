@@ -22,7 +22,7 @@ public class PrefabSpawnerSystem : SystemBase
     }
     protected override void OnUpdate(){
         float dt = Time.DeltaTime;
-        var ecb = m_Barrier.CreateCommandBuffer().ToConcurrent();
+        var ecb = m_Barrier.CreateCommandBuffer().AsParallelWriter();
 
         Random random = new Random((uint)UnityEngine.Random.Range(1,999999));
 

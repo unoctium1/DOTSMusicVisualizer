@@ -24,7 +24,7 @@ public class FixedPrefabSpawnerSystem : SystemBase
         m_Barrier = World.GetOrCreateSystem<BeginInitializationEntityCommandBufferSystem>();
     }
     protected override void OnUpdate(){
-        var ecb = m_Barrier.CreateCommandBuffer().ToConcurrent();
+        var ecb = m_Barrier.CreateCommandBuffer().AsParallelWriter();
 
         Random random = new Random((uint)UnityEngine.Random.Range(1,999999));
 
