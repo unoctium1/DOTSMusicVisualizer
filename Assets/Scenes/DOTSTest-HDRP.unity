@@ -3360,7 +3360,12 @@ PrefabInstance:
     - target: {fileID: 5000750352203888934, guid: 9efd878982928ea459d00c7217ccca05,
         type: 3}
       propertyPath: applyOnMusic
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000750352203888934, guid: 9efd878982928ea459d00c7217ccca05,
+        type: 3}
+      propertyPath: curvatureVal
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005497623993098567, guid: 9efd878982928ea459d00c7217ccca05,
         type: 3}
